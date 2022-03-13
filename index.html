@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Step Network | Connecting the UnConnected</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <style>
+        /* Preloader */
+        #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #fff;
+            /* change if the mask should have another color then white */
+            z-index: 999999;
+            /* makes sure it stays on top */
+        }
+
+        #status {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 50%;
+            /* centers the loading animation horizontally one the screen */
+            top: 50%;
+            /* centers the loading animation vertically one the screen */
+            background-image: url(images/preloader.gif);
+            /* path to your loading animation */
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: -100px 0 0 -100px;
+            /* is width and height divided by two */
+        }
+
+        #status p {
+            text-align: center;
+        }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet'
+        type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="./images/logo.png">
+    <!--favicon image-->
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status"><img src="images/logo.png" alt="loading content.."></div>
+    </div>
+
+    <!--HEADER START-->
+    <section id="header" class="clearfix">
+        <div class="container">
+            <div class="logo clearfix">
+                <a href="index.html"><img alt="logo" src="images/logo.png" height="60px"></a>
+            </div>
+            <!--/.logo-->
+            <div class="clearfix menu-box home">
+                <ul class="navigation">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <!--/.navigation-->
+            </div>
+            <!--/.menu-box-->
+
+            <div class="box-mobile hidden-lg hidden-md">
+                <div class="menu-btn" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="fa fa-bars"></span>
+                </div>
+                <ul class="nav-collapse mobile-menu hidden-lg hidden-md"></ul>
+            </div>
+        </div>
+    </section>
+    <!--/header-->
+    <!--HEADER END-->
+
+    <!--HOME START-->
+    <section id="home">
+        <div class="slider home-slider clearfix" data-auto-play="6000">
+
+            <div class="slide img-bg clearfix" data-background="images/slider-1.png">
+                <div class="slider-mask"></div>
+                <div class="caption-box">
+                    <div class="container">
+                        <p>LEADING NETWORK PROVIDERS</p>
+                        <div class="line-container">
+                            <div class="left-line"></div><i class="fa fa-bookmark-o"></i>
+                            <div class="right-line"></div>
+                        </div>
+                        <!--/.line-container-->
+                        <h3>STEP NETWORK</h3>
+                        <div class="line-container">
+                            <div class="bottom-line"></div>
+                        </div>
+                        <!--/.line-container-->
+
+                    </div>
+                </div>
+            </div>
+            <!--/.slider1-->
+
+            <div class="slide img-bg clearfix" data-background="images/slider-2.png">
+                <div class="slider-mask"></div>
+                <div class="caption-box">
+                    <div class="container">
+                        <p>internet solutions to the </p>
+                        <div class="line-container">
+                            <div class="left-line"></div><i class="fa fa-star-o"></i>
+                            <div class="right-line"></div>
+                        </div>
+                        <!--/.line-container-->
+                        <h3>unconnected</h3>
+                        <div class="line-container">
+                            <div class="bottom-line"></div>
+                        </div>
+                        <!--/.line-container-->
+
+                    </div>
+                </div>
+            </div>
+            <!--/.slider2-->
+
+            <div class="slide img-bg clearfix" data-background="images/slider-3.png">
+                <div class="slider-mask"></div>
+                <div class="caption-box">
+                    <div class="container">
+                        <p>with a 24/hr </p>
+                        <div class="line-container">
+                            <div class="left-line"></div><i class="fa fa-times"></i>
+                            <div class="right-line"></div>
+                        </div>
+                        <!--/.line-container-->
+                        <h3>surveillance</h3>
+                        <div class="line-container">
+                            <div class="bottom-line"></div>
+                        </div>
+                        <!--/.line-container-->
+
+                    </div>
+                </div>
+            </div>
+            <!--/.slider3-->
+        </div>
+        <!--/.slider-->
+    </section>
+    <!--/home-->
+    <!--HOME END-->
+
+    <!--PORTFOLIO START-->
+    <section id="portfolio" class="clearfix">
+        <div class="worksajax clearfix">
+            <!--ajax portfolio here-->
+        </div>
+        <div class="container-portfolio clearfix">
+            <!--PORTFOLIO FILTER-->
+            <ul class="port-filter">
+                <li><a class="" href="#" data-filter="*">Projects We Have Worked On</a></li>
+            </ul>
+            <!--PORTFOLIO FILTER END-->
+
+            <!--PORTFOLIO ITEM LIST-->
+            <div class="portfolio-body clearfix">
+                <div class="col-lg-3 col-md-4 col-sm-6 development port-item">
+                    <div class="bw-box clearfix">
+                        <a class="port-hover" href="./projects/samrebio.html" data-link="work1.html">
+                            <h3>Samreboi COMMUNITY NETWORK</h3>
+                        </a>
+                        <img alt="work" src="images/work/samrebio.png">
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+                <div class="col-lg-3 col-md-4 col-sm-6 photography design port-item">
+                    <div class="bw-box clearfix">
+                        <a class="port-hover" href="./projects/geoponet.html" data-link="work2.html">
+                            <h3>GEOPONET COMMUNITY HOTSPOT</h3>
+                        </a>
+                        <img alt="work" src="images/work/geoponet.png">
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+                <div class="col-lg-3 col-md-4 col-sm-6 design brand port-item">
+                    <div class="bw-box clearfix">
+                        <a class="port-hover" href="./projects/malaria-tracker.html" data-link="work3.html">
+                            <h3>MALARIA TRACKER FOR DONKOKROM CHIPS COMPOUND</h3>
+                        </a>
+                        <img alt="work" src="images/work/malaria.png">
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+                <div class="col-lg-3 col-md-4 col-sm-6 brand photography port-item">
+                    <div class="bw-box clearfix">
+                        <a class="port-hover" href="./projects/kuntu.html" data-link="work4.html">
+                            <h3>KUNTU COMMUNITY NETWORK</h3>
+                        </a>
+                        <img alt="work" src="images/work/kuntu.png">
+                    </div>
+                </div>
+                <!--/.col-md-4-->
+            </div>
+            <!--/.portfolio-body-->
+            <!--PORTFOLIO ITEM LIST END-->
+        </div>
+        <!--/.container-porfolio-->
+    </section>
+    <!--/portfolio-->
+    <!--PORTFOLIO END-->
+
+    <!--ABOUT START-->
+    <section id="about" class="content clearfix">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="content-title">about step network</h2>
+                    <p><strong>Step Network, is a technology-based company that specializes in building Community
+                            Networks and Promoting digital
+                            accessibility and literacy in rural areas. The company is registered under The Registration
+                            of Business Names Act,
+                            1962(No. 151) as with The Registrar General’s Department, Ghana.</strong></p>
+                    <p>It is our dream that every community in Ghana will have adequate internet connectivity because we
+                        believe the Internet
+                        is the future and, therefore, having access to it gives the present and future generations a
+                        better opportunity.</p>
+                    <div class="spacing40"></div>
+                </div>
+                <!--/.col-md-6-->
+                <div class="col-md-6">
+                    <iframe width="540"
+                        src="https://www.youtube.com/embed/o7Aet1dtV8o?wmode=opaque;rel=0;showinfo=0;controls=0;iv_load_policy=3"
+                        height="300"></iframe>
+                    <div class="spacing40"></div>
+                </div>
+                <!--/.col-md-6-->
+            </div>
+            <!--/.row-->
+
+            <div class="content-divider clearfix"></div>
+
+        </div>
+        <!--/.container-->
+    </section>
+    <!--ABOUT END-->
+
+
+    <!--TEAM START-->
+    <section id="team" class="clearfix">
+        <!--TEAM TAB START-->
+        <div class="nav-team clearfix">
+            <div class="col-lg-3 col-sm-6 team-list">
+                <div class="bw-box clearfix">
+                    <a class="team-hover" href="#team1" data-toggle="tab">
+                        <h3>Mr. Stephen Fosu</h3>
+                        <p>Network Administrator</p>
+                        <p>stephen@snetgh.org</p>
+                    </a>
+                    <img alt="Profile Picture Of Stephen" src="./images/stephen.png">
+                </div>
+            </div>
+            <!--/.col-md-4-->
+            <div class="col-lg-3 col-sm-6 team-list">
+                <div class="bw-box clearfix">
+                    <a class="team-hover" href="#team2" data-toggle="tab">
+                        <h3>Mr. Siaw Peter Donkor</h3>
+                        <p>Software Developer</p>
+                        <p>peter@snetgh.org</p>
+                    </a>
+                    <img alt="Profile Picture Of Peter" src="./images/peter.png">
+                </div>
+            </div>
+
+            <!--/.col-md-4-->
+            <div class="col-lg-3 col-sm-6 team-list">
+                <div class="bw-box clearfix">
+                    <a class="team-hover" href="#team4" data-toggle="tab">
+                        <h3>Mr. Paul Eshun</h3>
+                        <p>Software Developer</p>
+                        <p>paul@snetgh.org</p>
+                    </a>
+                    <img alt="Profile Picture Of Paul" src="./images/paul.png">
+                </div>
+            </div>
+            <!--/.col-md-4-->
+
+            <!--/.col-md-4-->
+            <div class="col-lg-3 col-sm-6 design team-list">
+                <div class="bw-box clearfix">
+                    <a class="team-hover" href="#team3" data-toggle="tab">
+                        <h3>Mr. Victor Asante</h3>
+                        <p>Policy Advisor</p>
+                        <p>victor@snetgh.org</p>
+                    </a>
+                    <img alt="Profile Picture Of Victor" src="./images/victor.png">
+                </div>
+            </div>
+
+
+        </div>
+        <!--/nav-team-->
+        <!--TEAM TAB END -->
+
+    </section>
+    <!--/.team-->
+    <!--TEAM END-->
+
+    <!--CONTACT START-->
+    <section id="contact" class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="content-title">Contact Us</h2>
+                    <p><strong>Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours
+                            on business days. We will be
+                            happy to answer your questions.</p>
+                    <div class="spacing40"></div>
+                    <div class="content-divider clearfix"></div>
+                    <ul class="address-list">
+                        <li><i class="fa fa-home"></i> Nungua, Accra</li>
+                        <li><i class="fa fa-phone"></i> +233-548-988-114</li>
+                        <li><i class="fa fa-envelope"></i> <a href="javascript:void()">contact@snetgh.org</a></li>
+                    </ul>
+                    <!--/.address-list-->
+                    <div class="spacing40"></div>
+                </div>
+                <!--/.col-md-6-->
+                <div class="col-md-6">
+                    <div id="form-wrapper">
+                        <div id="form-inner">
+                            <div id="ErrResults">
+                                <!-- retrive Error Here -->
+                            </div>
+                            <div id="MainResult">
+                                <!-- retrive response Here -->
+                            </div>
+                            <div id="MainContent">
+                                <form id="MyContactForm" name="MyContactForm" method="post">
+                                    <p class="name">
+                                        <span>Name:</span>
+                                        <input type="text" name="name" id="name" placeholder="Your Name ...">
+                                        <label for="name" id="nameLb"><span class="error">*Name Field
+                                                Required</span></label>
+                                    </p>
+                                    <p>
+                                        <span>Email:</span>
+                                        <input type="email" name="email" id="email" placeholder="Your Email ...">
+                                        <label for="email" id="emailLb">
+                                            <span class="error error1">*Email Field Required</span>
+                                            <span class="error error2">*Email Not Valid</span>
+                                        </label>
+                                    </p>
+                                    <p>
+                                        <span>Phone:</span>
+                                        <input type="text" name="phone" id="phone" placeholder="Your Telephone ...">
+                                        <label for="phone" id="phoneLb"><span class="error">*Telephone Field
+                                                Required</span></label>
+                                    </p>
+                                    <p class="textarea">
+                                        <span>Message:</span>
+                                        <textarea name="message" id="message" placeholder="Your Message ..."
+                                            rows="4"></textarea>
+                                        <label for="message" id="messageLb"><span class="error">*Message Field
+                                                Required</span></label>
+                                    </p>
+                                    <div class="clearfix"></div>
+                                    <button type="submit" class="contact-btn">Send Message</button>
+                                </form>
+                            </div>
+                            <!--MainContent-->
+                        </div>
+                        <!--form-inner-->
+                    </div>
+                    <!--form-wrapper-->
+                    <div class="spacing40"></div>
+                </div>
+                <!--/.col-md-6-->
+
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </section>
+    <!--/contact-->
+    <!--CONTACT END-->
+
+    <div class="transparent clearfix">
+        <!--to create margin bottom on contact section-->
+    </div>
+
+    <!--FOOTER START-->
+    <section class="footer clearfix">
+        <div class="container">
+
+            <p>copyright © 2022 Step Network. all right reserved.</p>
+        </div>
+    </section>
+    <!--FOOTER END-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-3.0.1.js"></script>
+    <script src="js/jquery.easing.js"></script>
+    <script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.sticky.js"></script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.js"></script>
+    <script type="text/javascript" src="js/jquery.BlackAndWhite.min.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/contact.html"></script>
+    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript" src="js/superfish.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+
+</html>
